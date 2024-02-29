@@ -1,12 +1,12 @@
 import classnames from 'classnames';
-import './Button.css';
+import styles from './Button.module.css';
 
 export const Button = ({ children, type = 'primary', isBlock = true }) => {
   return (
     <button
-      className={classnames('button', {
-        [`type-${type}`]: type,
-        'is-block': isBlock,
+      className={classnames(styles.button, {
+        [styles[`type-${type}`]]: type,
+        [styles['is-block']]: isBlock && type !== 'tertiary',
       })}
     >
       {children}

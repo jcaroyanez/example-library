@@ -1,4 +1,4 @@
-button {
+.button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -17,17 +17,17 @@ button {
   width: 100%;
 }
 
-button:hover {
+.button:hover {
   filter: brightness(1.1);
 }
 
-button:active {
+.button:active {
   filter: brightness(0.9);
 }
 
 .type-primary {
-  background-color: var(--color-brand-medium-purple);
-  color: var(--white);
+  background-color: var(--color-primary);
+  color: var(--color-base-white);
 }
 
 .type-secondary {

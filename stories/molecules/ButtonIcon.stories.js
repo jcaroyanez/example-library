@@ -7,6 +7,6 @@ export default {
 export const Default = {
   args: {
     children: 'Button icon',
-    icon: 'rigth-arrow',
+    icon: 'rigthArrow',
   },
 };

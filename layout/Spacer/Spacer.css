@@ -1,0 +1,7 @@
+.spacer {
+
+}
+
+.is-visble {
+	border: 2px dashed var(--color-primary);
+}

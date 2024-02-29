@@ -257,19 +257,16 @@
   --color-blue-gray-700: #334155;
   --color-blue-gray-800: #1e293b;
   --color-blue-gray-900: #0f172a;
+
   --spacing-none: 0;
   --spacing-xs: 5;
   --spacing-sm: 15;
   --spacing-md: 20;
   --spacing-lg: 40;
 
-  --font-family-sans-0: Quicksand;
-  --font-family-sans-1: Arial;
-  --font-family-sans-2: sans-serif;
+  --font-family-sans: Quicksand, Arial, sans-serif;
+  --font-family-mono: 'Roboto Mono', 'Courier New', monospace;
 
-  --font-family-mono-0: 'Roboto Mono';
-  --font-family-mono-1: 'Courier New';
-  --font-family-mono-2: monospace;
   --font-size-base: 14px;
   --font-size-xs: 1.2rem;
   --font-size-sm: 1.4rem;
@@ -354,9 +351,11 @@
   --container-max-width: 800px;
 
   --button-max-width: 300px;
+
   --button-border-radius-sm: 10px;
   --button-border-radius-md: 20px;
   --button-border-radius-lg: 30px;
+
   --input-height: 38px;
   --input-max-width: 400px;
   --input-background: #fff;
@@ -367,6 +366,7 @@
   --paragraph-font-size-sm: 1.2rem;
   --paragraph-font-size-md: 1.4rem;
   --paragraph-font-size-lg: 1.6rem;
+
   --textarea-border-radius: 10px;
 
   --picture-border: 1px solid #7e858c;
@@ -381,6 +381,7 @@
   --stopwatch-height: 6px;
 
   --modal-backdrop-color: rgba(255, 255, 255, 0.85);
+
   --modal-desktop-height: 650px;
   --modal-desktop-max-width: 750px;
 }

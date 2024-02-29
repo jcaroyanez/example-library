@@ -4,8 +4,21 @@ export default {
   component: Icon,
 };
 
-export const Default = {
+export const RigthArrow = {
   args: {
-    type: 'rigth-arrow',
+    type: 'rigthArrow',
+  },
+};
+
+export const HasBrackground = {
+  args: {
+    type: 'rigthArrow',
+    hasBackground: true,
+  },
+};
+
+export const AngleDownSolid = {
+  args: {
+    type: 'angleDownSolid',
   },
 };
