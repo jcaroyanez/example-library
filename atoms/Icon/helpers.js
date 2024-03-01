@@ -12,7 +12,7 @@ const iconSize = {
   xl: 40,
 };
 
-export const mapIcon = (type) => `${ICONS_ASSETS_PATH}/${iconMap[type]}.svg`;
+export const mapIcon = (type) => `${ICONS_ASSETS_PATH}${iconMap[type]}.svg`;
 
 // eslint-disable-next-line no-unused-vars
 export const mapSize = (size) => iconSize[size];

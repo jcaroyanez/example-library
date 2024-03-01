@@ -6,7 +6,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jcaroyanez/example-library"
+    "url": "git+https://github.com/jcaroyanez/example-library.git"
   },
   "scripts": {
     "test": "jest --updateSnapshot",
@@ -16,10 +16,13 @@
     "build-storybook": "storybook build",
     "build-tokens": "node ./scripts/generate-customs-properties",
     "prepare": "husky",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "chromatic": "npx chromatic --project-token=chpt_61b37c8329b9d1d"
   },
   "keywords": [],
-  "author": "jcaroyanez",
+  "author": {
+    "name": "jcaroyanez"
+  },
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.5.1",
@@ -46,6 +49,7 @@
     "@storybook/react-webpack5": "^7.6.17",
     "@storybook/test": "^7.6.17",
     "babel-jest": "^29.7.0",
+    "chromatic": "^11.0.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
@@ -66,5 +70,9 @@
     "*.{js, jsx,ts,tsx}": [
       "eslint --cache --fix"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jcaroyanez/example-library/issues"
+  },
+  "homepage": "https://github.com/jcaroyanez/example-library#readme"
 }
