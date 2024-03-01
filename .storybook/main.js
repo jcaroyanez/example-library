@@ -9,7 +9,7 @@ const config = {
     '@storybook/addon-essentials',
     '@storybook/addon-onboarding',
     '@storybook/addon-interactions',
-		'storybook-css-modules'
+		'storybook-css-modules',
   ],
   framework: {
     name: '@storybook/react-webpack5',
