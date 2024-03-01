@@ -48,7 +48,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: show tokens
-        run: echo "githut ${{ secrets.GITHUB_TOKEN }} npm - ${{ secrets.NPM_TOKEN }}"
+        run: echo "githut ${{ secrets.GITHUB_TOKEN }} - npm ${{ secrets.NPM_TOKEN }}"
       - name: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
