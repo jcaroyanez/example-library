@@ -47,6 +47,8 @@ jobs:
           node-version: 20
       - name: Install dependencies
         run: npm install
+      - name: show tokens
+        run: echo ${{ secrets.NPM_TOKEN }}
       - name: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
